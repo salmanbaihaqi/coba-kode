@@ -22,7 +22,7 @@ def draw_building(amplitude, floors, time_seconds=0):
         xlim=(-limit, limit),
         ylim=(-1, floors * 3 + 5),
         title=f"Goyangan (waktu: {time_seconds:.2f} s)",
-        xlabel="Simpangan / Goyangan (m)",
+        xlabel="Simpangan (m)",
     )
     return fig
 
