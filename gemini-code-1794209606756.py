@@ -1,6 +1,6 @@
 import streamlit as st
-numpy as np
-matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.pyplot as plt
 time
 
 st.set_page_config("Simulasi Gempa", "🏗️", layout="wide")
