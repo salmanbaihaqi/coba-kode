@@ -23,7 +23,6 @@ def draw_building(amplitude, floors, time_seconds=0):
         ylim=(-1, floors * 3 + 5),
         title=f"Goyangan (waktu: {time_seconds:.2f} s)",
         xlabel="Simpangan ilustratif (m)",
-        ylabel="Tinggi (m)",
     )
     return fig
 
