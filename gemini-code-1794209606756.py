@@ -42,7 +42,7 @@ def page_earthquake():
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        floors = st.slider("Jumlah Lantai", 3, 20, 10)
+        floors = st.slider("Jumlah Lantai", 1, 3, 5)
         material = st.selectbox(
             "Material", ["Beton Biasa", "Beton Bertulang", "Baja & Peredam"]
         )
